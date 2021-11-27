@@ -74,7 +74,7 @@ public:
         std::perceptron_traits<N,F>::train(weights, inputs, output, expected_output);
     }
 
-private:
+public:
     float biais;
     std::array<float, N> weights;
 

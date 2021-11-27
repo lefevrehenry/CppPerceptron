@@ -12,14 +12,6 @@
 namespace std
 {
 
-// template< std::size_t N, std::activation_function F >
-// Perceptron<N,F>& make_perceptron()
-// {
-//     Perceptron<N,F> p;
-//
-//     return p;
-// }
-
 template< std::size_t N, std::activation_function F >
 struct perceptron_traits
 {

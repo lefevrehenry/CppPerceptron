@@ -4,9 +4,6 @@
 #include <cmath>
 #include <limits>
 
-// namespace std
-// {
-
 template<>
 std::string std::function_name<std::activation_function::heaviside>()
 {
@@ -62,5 +59,3 @@ float std::derivate<std::activation_function::tangente_hyperbolique>(float x)
     float tanh_x = std::evaluate<std::activation_function::tangente_hyperbolique>(x);
     return (1.f - std::pow(tanh_x,2));
 }
-
-// }
